@@ -16,3 +16,16 @@ The goal of EpiAgent is to provide early warning alerts and decision support for
 ## Workflow Diagram
 
 ![Workflow](workflow_diagram.png)
+
+## How to Run the Prototype
+
+1. Install Python 3
+2. Install required libraries
+
+pip install pandas numpy
+
+3. Run the prototype
+
+python epiagent_agent.py
+
+The script will simulate the EpiAgent workflow including data ingestion, anomaly detection, outbreak decision logic, and response recommendations.
