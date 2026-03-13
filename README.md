@@ -21,12 +21,15 @@ The goal of EpiAgent is to provide early warning alerts and intelligent decision
 ## How to Run the Prototype
 
 1. Install Python 3
-2. Install required libraries
+
+2. Install the required libraries
 
 pip install pandas numpy
 
-3. Run the prototype
+3. Run the manager agent
 
-python epiagent_agent.py
+python main_agent.py
 
-The script will simulate the EpiAgent workflow including data ingestion, anomaly detection, outbreak decision logic, and response recommendations.
+The Manager Agent coordinates multiple autonomous agents including the Data Agent, NLP Agent, Detection Agent, Prediction Agent, and Response Agent.
+
+Each agent performs its task independently and reports its results back to the Manager Agent. The manager can also query any agent dynamically and combines all agent reports to determine potential outbreaks and recommend response actions.
