@@ -15,6 +15,21 @@ Note: This project presents a prototype simulation of an Agentic AI outbreak det
 
 ![System Architecture](system_architecture.png)
 
+## Multi-Agent Design
+
+EpiAgent follows a manager-driven multi-agent architecture.
+
+A central **Manager Agent** coordinates several specialized autonomous agents:
+
+- **Data Agent** – collects and preprocesses health data
+- **NLP Agent** – extracts signals from reports and news
+- **Detection Agent** – detects anomalies in case trends
+- **Prediction Agent** – estimates outbreak severity and spread risk
+- **Response Agent** – generates recommended public health actions
+
+Each agent performs its task independently and reports results back to the Manager Agent.  
+The Manager Agent can query any agent dynamically and combines all results to make the final outbreak assessment.
+
 ## Workflow Diagram
 
 ![Workflow](workflow_final_diagram.png)
