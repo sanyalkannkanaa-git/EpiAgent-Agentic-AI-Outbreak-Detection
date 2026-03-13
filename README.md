@@ -11,8 +11,8 @@ The goal of EpiAgent is to provide early warning alerts and decision support for
 
 ## System Architecture
 
-![System Architecture](system%20architecture.png)
+![System Architecture](system_architecture.png)
 
 ## Workflow Diagram
 
-![Workflow](workflow%20diagram.png)
+![Workflow](workflow_diagram.png)
