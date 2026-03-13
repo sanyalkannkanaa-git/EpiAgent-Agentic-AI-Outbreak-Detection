@@ -8,3 +8,11 @@ The system collects information from health databases, clinical reports, environ
 When a potential outbreak is detected, the agent evaluates the severity and predicts how the disease may spread. Based on this analysis, the system recommends response strategies such as vaccine planning, resource allocation, and containment measures.
 
 The goal of EpiAgent is to provide early warning alerts and decision support for health authorities.
+
+## System Architecture
+
+![System Architecture](system architecture.png)
+
+## Workflow Diagram
+
+![Workflow](workflow diagram.png)
