@@ -9,6 +9,7 @@ The system gathers information from public health databases, clinical reports, e
 When a possible outbreak is detected, EpiAgent analyzes the severity of the situation and predicts how the disease may spread across regions. Based on this analysis, the system recommends response strategies such as vaccine planning, healthcare resource allocation, and containment measures.
 
 The goal of EpiAgent is to provide early warning alerts and intelligent decision support for public health authorities, enabling faster and more effective responses to emerging health threats.
+Note: This project presents a prototype simulation of an Agentic AI outbreak detection system intended to demonstrate system architecture and decision workflow.
 
 ## System Architecture
 
@@ -17,6 +18,26 @@ The goal of EpiAgent is to provide early warning alerts and intelligent decision
 ## Workflow Diagram
 
 ![Workflow](workflow_final_diagram.png)
+
+## Project Structure
+
+main_agent.py – Manager agent that coordinates all other agents  
+
+data_agent.py – Collects and preprocesses health data  
+
+nlp_agent.py – Extracts health-related signals from reports and news  
+
+detection_agent.py – Detects abnormal disease patterns using anomaly detection  
+
+prediction_agent.py – Estimates outbreak severity and potential spread  
+
+response_agent.py – Generates response recommendations based on predicted severity  
+
+health_data.csv – Example dataset used for the prototype  
+
+system_architecture.png – System architecture diagram  
+
+workflow_final_diagram.png – Multi-agent workflow diagram
 
 ## How to Run the Prototype
 
@@ -33,3 +54,21 @@ python main_agent.py
 The Manager Agent coordinates multiple autonomous agents including the Data Agent, NLP Agent, Detection Agent, Prediction Agent, and Response Agent.
 
 Each agent performs its task independently and reports its results back to the Manager Agent. The manager can also query any agent dynamically and combines all agent reports to determine potential outbreaks and recommend response actions.
+
+## Technologies Used
+Python  
+Pandas  
+NumPy  
+Agent-based modular architecture  
+Simple anomaly detection (Z-score)  
+Prototype epidemic prediction logic
+
+## Future Improvements
+
+Integrate real-time health surveillance data sources  
+Use Large Language Models for medical report analysis  
+Apply epidemiological models such as SIR or SEIR  
+Add geospatial outbreak risk mapping  
+Deploy as a real-time health monitoring platform
+
+
