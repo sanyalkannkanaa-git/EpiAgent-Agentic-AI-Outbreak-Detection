@@ -15,7 +15,7 @@ The goal of EpiAgent is to provide early warning alerts and decision support for
 
 ## Workflow Diagram
 
-![Workflow](workflow_diagram.png)
+![Workflow](workflow_final_diagram.png)
 
 ## How to Run the Prototype
 
